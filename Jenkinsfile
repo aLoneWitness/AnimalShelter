@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        powershell 'maven deploy'
+        sh 'maven clean install'
       }
     }
   }
