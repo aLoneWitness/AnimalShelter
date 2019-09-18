@@ -8,6 +8,15 @@ public class Cat extends Animal implements Sellable {
         this.badHabits = badHabits;
     }
 
+    public boolean sellTo(AnimalOwner owner) {
+        if(super.owner != null){
+            return false;
+        }
+
+        super.owner = owner;
+        return true;
+    }
+
     public int getPrice(){
         int price = 350 - this.badHabits.length() * 20;
         return Math.max(price, 35);

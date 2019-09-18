@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998b136f-5eff-4781-9298-0eceedf7d7fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/helloworld.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Sellable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Cat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Sellable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Sellable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="225" />
+    <option name="myElementSize" value="344" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,15 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in helloworld (4)">
-    <configuration name="All in helloworld (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AnimalShelter" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MainTest">
     <configuration name="All in helloworld (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalShelter" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,10 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in helloworld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalShelter" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testDogSaleAmountOutsideBounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnimalShelter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testDogSaleAmountOutsideBounds" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testDogSaleAmountOutsideBounds" />
         <item itemvalue="JUnit.All in helloworld (4)" />
         <item itemvalue="JUnit.All in helloworld (3)" />
         <item itemvalue="JUnit.All in helloworld (2)" />
-        <item itemvalue="JUnit.All in helloworld (1)" />
-        <item itemvalue="JUnit.All in helloworld" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +205,7 @@
       <workItem from="1567595519468" duration="4875000" />
       <workItem from="1568185602960" duration="15000" />
       <workItem from="1568185913180" duration="265000" />
+      <workItem from="1568790069742" duration="2427000" />
     </task>
     <servers />
   </component>
@@ -206,11 +217,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MainTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/helloworld$All_in_helloworld.ic" NAME="All in helloworld Coverage Results" MODIFIED="1567578909365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -219,5 +243,6 @@
     <SUITE FILE_PATH="coverage/helloworld$All_in_helloworld__4_.ic" NAME="All in helloworld (4) Coverage Results" MODIFIED="1567597347939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/helloworld$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1567578852672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/helloworld$All_in_helloworld__3_.ic" NAME="All in helloworld (3) Coverage Results" MODIFIED="1567597207637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AnimalShelter$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1568792491605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

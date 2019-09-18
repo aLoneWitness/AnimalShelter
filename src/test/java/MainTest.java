@@ -1,5 +1,5 @@
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import sandervandinteren.dev.models.AnimalGender;
 import sandervandinteren.dev.models.AnimalOwner;
 import sandervandinteren.dev.models.Cat;
@@ -13,7 +13,7 @@ public class MainTest {
         Cat cat = new Cat("Minoes", AnimalGender.Female, "");
 
         // Act
-        boolean result = cat.assignTo(owner);
+        boolean result = cat.sellTo(owner);
 
         // Assert
         Assertions.assertTrue(result);
@@ -28,8 +28,8 @@ public class MainTest {
 
 
         // Act
-        cat.assignTo(ownerOne);
-        boolean result = cat.assignTo(ownerTwo);
+        cat.sellTo(ownerOne);
+        boolean result = cat.sellTo(ownerTwo);
 
         // Assert
         Assertions.assertFalse(result);
@@ -51,12 +51,15 @@ public class MainTest {
     @Test
     void testDogSaleAmountInsideBounds(){
         // Arrange
-        Dog dog1 = new Dog("Minoes", AnimalGender.Female);
-        Dog dog2 = new Dog("Minoes", AnimalGender.Female);
-        Dog dog3 = new Dog("Minoes", AnimalGender.Female);
+        Dog.resetDogPrice();
+        for(int i = 0; i < 2; ++i){
+            Dog dog = new Dog("DogName", AnimalGender.Female);
+            dog.sellTo(new AnimalOwner("OwnerName"));
+        }
+        Dog dog2 = new Dog("DogName", AnimalGender.Female);
 
         // Act
-        int price = dog3.getPrice();
+        int price = dog2.getPrice();
 
         // Assert
         Assertions.assertEquals(400, price);
@@ -65,10 +68,12 @@ public class MainTest {
     @Test
     void testDogSaleAmountOutsideBounds(){
         // Arrange
-        for(int i = 0; i < 50; i++){
-            Dog dog = new Dog("ok", AnimalGender.Female);
+        Dog.resetDogPrice();
+        for(int i = 0; i < 50; ++i){
+            Dog dog = new Dog("DogName", AnimalGender.Female);
+            dog.sellTo(new AnimalOwner("OwnerName"));
         }
-        Dog dog = new Dog("ok", AnimalGender.Female);
+        Dog dog = new Dog("DogName", AnimalGender.Female);
 
         // Act
         int price = dog.getPrice();
