@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998b136f-5eff-4781-9298-0eceedf7d7fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelloFX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Sellable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/AnimalGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AnimalGender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/AnimalOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AnimalOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandervandinteren/dev/models/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Sellable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Sellable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Sellable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/AnimalGender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/AnimalOwner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sandervandinteren/dev/models/Sellable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MainTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -67,31 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
-    <configuration name="All in helloworld (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AnimalShelter" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in helloworld (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AnimalShelter" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in helloworld (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AnimalShelter" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Maven.AnimalShelter [clean,javafx:run]">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalShelter" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,64 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testDogSaleAmountOutsideBounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AnimalShelter" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testDogSaleAmountOutsideBounds" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="AnimalShelter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="AnimalShelter" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="AnimalShelter [clean,javafx:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -168,7 +90,10 @@
               <set />
             </option>
             <option name="goals">
-              <list />
+              <list>
+                <option value="clean" />
+                <option value="javafx:run" />
+              </list>
             </option>
             <option name="pomFileName" />
             <option name="profilesMap">
@@ -181,13 +106,39 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="javafx:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="Maven.AnimalShelter [clean,javafx:run]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testDogSaleAmountOutsideBounds" />
-        <item itemvalue="JUnit.All in helloworld (4)" />
-        <item itemvalue="JUnit.All in helloworld (3)" />
-        <item itemvalue="JUnit.All in helloworld (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +157,8 @@
       <workItem from="1568185602960" duration="15000" />
       <workItem from="1568185913180" duration="265000" />
       <workItem from="1568790069742" duration="2427000" />
+      <workItem from="1568806466392" duration="48000" />
+      <workItem from="1569396044900" duration="5342000" />
     </task>
     <servers />
   </component>
@@ -225,17 +178,6 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/MainTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/helloworld$All_in_helloworld.ic" NAME="All in helloworld Coverage Results" MODIFIED="1567578909365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/helloworld$All_in_helloworld__1_.ic" NAME="All in helloworld (1) Coverage Results" MODIFIED="1567596556571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -243,6 +185,6 @@
     <SUITE FILE_PATH="coverage/helloworld$All_in_helloworld__4_.ic" NAME="All in helloworld (4) Coverage Results" MODIFIED="1567597347939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/helloworld$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1567578852672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/helloworld$All_in_helloworld__3_.ic" NAME="All in helloworld (3) Coverage Results" MODIFIED="1567597207637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AnimalShelter$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1568792491605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AnimalShelter$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1569396112773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

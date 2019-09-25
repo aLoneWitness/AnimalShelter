@@ -1,4 +1,4 @@
-package sandervandinteren.dev.models;
+package models;
 
 public class Dog extends Animal implements Sellable {
     static int currentPrice = 500;

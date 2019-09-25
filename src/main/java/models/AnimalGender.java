@@ -1,4 +1,4 @@
-package sandervandinteren.dev.models;
+package models;
 
 public enum AnimalGender {
     Male,

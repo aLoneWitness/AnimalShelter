@@ -1,4 +1,4 @@
-package sandervandinteren.dev.models;
+package models;
 
 public class Cat extends Animal implements Sellable {
     private String badHabits;

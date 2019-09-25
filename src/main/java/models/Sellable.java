@@ -1,4 +1,4 @@
-package sandervandinteren.dev.models;
+package models;
 
 public interface Sellable {
     boolean sellTo(AnimalOwner owner);

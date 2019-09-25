@@ -1,9 +1,9 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import sandervandinteren.dev.models.AnimalGender;
-import sandervandinteren.dev.models.AnimalOwner;
-import sandervandinteren.dev.models.Cat;
-import sandervandinteren.dev.models.Dog;
+import models.AnimalGender;
+import models.AnimalOwner;
+import models.Cat;
+import models.Dog;
 
 public class MainTest {
     @Test

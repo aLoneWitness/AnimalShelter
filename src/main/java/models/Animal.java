@@ -1,4 +1,4 @@
-package sandervandinteren.dev.models;
+package models;
 
 public abstract class Animal {
     private String name;
