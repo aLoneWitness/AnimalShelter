@@ -12,6 +12,6 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return this.name + ", " + this.gender;
+        return this.gender + " " + this.getClass().getSimpleName() + ", " + this.name;
     }
 }

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998b136f-5eff-4781-9298-0eceedf7d7fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Observable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mainscene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mainscene.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +46,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -149,6 +152,13 @@
       <workItem from="1568790069742" duration="2427000" />
       <workItem from="1568806466392" duration="48000" />
       <workItem from="1569396044900" duration="13751000" />
+      <workItem from="1569438778472" duration="500000" />
+      <workItem from="1569510991739" duration="640000" />
+      <workItem from="1569511647695" duration="26000" />
+      <workItem from="1569511692711" duration="586000" />
+      <workItem from="1569519402879" duration="1220000" />
+      <workItem from="1569608434587" duration="564000" />
+      <workItem from="1569656122013" duration="5798000" />
     </task>
     <servers />
   </component>
