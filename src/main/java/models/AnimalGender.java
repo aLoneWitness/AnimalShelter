@@ -1,6 +1,8 @@
 package models;
 
-public enum AnimalGender {
+import java.io.Serializable;
+
+public enum AnimalGender implements Serializable {
     Male,
     Female
 }

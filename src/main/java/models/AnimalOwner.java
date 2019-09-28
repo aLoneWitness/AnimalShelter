@@ -1,6 +1,8 @@
 package models;
 
-public class AnimalOwner {
+import java.io.Serializable;
+
+public class AnimalOwner implements Serializable {
     private String name;
 
     public AnimalOwner(String name){

@@ -3,10 +3,11 @@ package models;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AnimalShelter {
+public class AnimalShelter implements Serializable {
     private List<Animal> animals;
 
     public AnimalShelter() {
@@ -20,4 +21,6 @@ public class AnimalShelter {
     public void addAnimal(Animal animal) {
         this.animals.add(animal);
     }
+
+    public void removeAnimal(Animal animal) { this.animals.remove(animal); }
 }

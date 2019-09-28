@@ -1,6 +1,8 @@
 package models;
 
-public class Cat extends Animal implements Sellable {
+import java.io.Serializable;
+
+public class Cat extends Animal implements Sellable, Serializable {
     private String badHabits;
 
     public Cat(String name, AnimalGender gender, String badHabits){
