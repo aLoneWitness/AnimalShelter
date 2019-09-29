@@ -1,3 +1,4 @@
+import factory.AnimalFactory;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import models.AnimalGender;
@@ -7,7 +8,7 @@ import models.Dog;
 
 public class MainTest {
     @Test
-    void testAssignAnimalToUnownedAnimal(){
+    public void TestAssignAnimalToUnownedAnimal(){
         // Arrange
         AnimalOwner owner = new AnimalOwner("Mark");
         Cat cat = new Cat("Minoes", AnimalGender.Female, "");
@@ -20,7 +21,7 @@ public class MainTest {
     }
 
     @Test
-    void testAssignAnimalToOwnedAnimal(){
+    public void TestAssignAnimalToOwnedAnimal(){
         // Arrange
         AnimalOwner ownerOne = new AnimalOwner("Mark");
         AnimalOwner ownerTwo = new AnimalOwner("David");
@@ -36,7 +37,7 @@ public class MainTest {
     }
 
     @Test
-    void testCatSaleOutsideBounds(){
+    public void TestCatSaleOutsideBounds(){
         // Arrange
         Cat cat = new Cat("Minoes", AnimalGender.Female, "IM A BAAAAAAAD GUUUUUUUUUY duh");
 
@@ -49,14 +50,14 @@ public class MainTest {
     }
 
     @Test
-    void testDogSaleAmountInsideBounds(){
+    public void TestDogSaleAmountInsideBounds(){
         // Arrange
-        Dog.resetDogPrice();
+        AnimalFactory.totalDogsProduced = 0;
         for(int i = 0; i < 2; ++i){
-            Dog dog = new Dog("DogName", AnimalGender.Female);
+            Dog dog = (Dog) AnimalFactory.createAnimal("Dog", "DogName", AnimalGender.Female, "naughty");
             dog.sellTo(new AnimalOwner("OwnerName"));
         }
-        Dog dog2 = new Dog("DogName", AnimalGender.Female);
+        Dog dog2 = (Dog) AnimalFactory.createAnimal("Dog", "DogName", AnimalGender.Female, "naughty");
 
         // Act
         int price = dog2.getPrice();
@@ -66,14 +67,14 @@ public class MainTest {
     }
 
     @Test
-    void testDogSaleAmountOutsideBounds(){
+    public void TestDogSaleAmountOutsideBounds(){
         // Arrange
-        Dog.resetDogPrice();
+        AnimalFactory.totalDogsProduced = 0;
         for(int i = 0; i < 50; ++i){
-            Dog dog = new Dog("DogName", AnimalGender.Female);
+            Dog dog = (Dog) AnimalFactory.createAnimal("Dog", "DogName", AnimalGender.Female, "naughty");
             dog.sellTo(new AnimalOwner("OwnerName"));
         }
-        Dog dog = new Dog("DogName", AnimalGender.Female);
+        Dog dog = (Dog) AnimalFactory.createAnimal("Dog", "DogName", AnimalGender.Female, "naughty");
 
         // Act
         int price = dog.getPrice();

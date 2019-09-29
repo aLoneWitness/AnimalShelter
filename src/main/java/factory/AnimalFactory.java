@@ -6,7 +6,7 @@ import models.Cat;
 import models.Dog;
 
 public class AnimalFactory {
-    static int totalDogsProduced = 0;
+    public static int totalDogsProduced = 0;
 
     public static Animal createAnimal(String animalType, String name, AnimalGender gender, String badHabits){
         if(animalType.equalsIgnoreCase("DOG")){
