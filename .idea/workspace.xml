@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998b136f-5eff-4781-9298-0eceedf7d7fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/AnimalFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +163,7 @@
       <workItem from="1569656122013" duration="11104000" />
       <workItem from="1569686478999" duration="5903000" />
       <workItem from="1569752128130" duration="5886000" />
-      <workItem from="1569760341578" duration="2815000" />
+      <workItem from="1569760341578" duration="2921000" />
     </task>
     <servers />
   </component>
