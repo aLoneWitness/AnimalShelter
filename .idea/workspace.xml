@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998b136f-5eff-4781-9298-0eceedf7d7fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/storage/AnimalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/AnimalFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shelter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shelter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainSceneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/AnimalGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AnimalGender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/AnimalOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AnimalOwner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AnimalShelter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Sellable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mainscene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mainscene.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -160,7 +158,8 @@
       <workItem from="1569519402879" duration="1220000" />
       <workItem from="1569608434587" duration="564000" />
       <workItem from="1569656122013" duration="11104000" />
-      <workItem from="1569686478999" duration="5551000" />
+      <workItem from="1569686478999" duration="5903000" />
+      <workItem from="1569752128130" duration="5252000" />
     </task>
     <servers />
   </component>

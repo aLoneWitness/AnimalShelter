@@ -12,7 +12,8 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("mainScene.fxml"));
         stage.setTitle("Animal Shelter");
-        stage.setScene(new Scene(root, 800, 600));
+        stage.setScene(new Scene(root));
+        stage.setResizable(false);
         stage.show();
     }
 

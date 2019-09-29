@@ -3,14 +3,15 @@ package models;
 import java.io.Serializable;
 
 public class Dog extends Animal implements Sellable, Serializable {
-    static int currentPrice = 500;
+    private int currentPrice;
 
-    public Dog(String name, AnimalGender gender) {
+    public Dog(String name, AnimalGender gender, int totalDogsProduced) {
         super(name, gender);
-    }
 
-    public static void resetDogPrice(){
-        currentPrice = 500;
+        currentPrice = 500 - 50 * totalDogsProduced;
+        if(currentPrice < 50){
+            currentPrice = 50;
+        }
     }
 
     public boolean sellTo(AnimalOwner owner) {
@@ -19,10 +20,6 @@ public class Dog extends Animal implements Sellable, Serializable {
         }
 
         super.owner = owner;
-        currentPrice = currentPrice - 50;
-        if(currentPrice < 50){
-            currentPrice = 50;
-        }
         return true;
     }
 

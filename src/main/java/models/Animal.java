@@ -2,7 +2,7 @@ package models;
 
 import java.io.Serializable;
 
-public abstract class Animal implements Serializable {
+public abstract class Animal implements Serializable, Sellable{
     private String name;
     private AnimalGender gender;
     protected AnimalOwner owner;

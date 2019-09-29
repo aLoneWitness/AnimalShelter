@@ -1,12 +1,10 @@
+import factory.AnimalFactory;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import models.*;
 import storage.AnimalRepository;
 
@@ -21,6 +19,9 @@ public class MainSceneController implements Initializable {
 
     @FXML
     ListView<Animal> animalListView;
+
+    @FXML
+    Button sellButton;
 
     @FXML
     public TextField nameInput;
@@ -38,12 +39,7 @@ public class MainSceneController implements Initializable {
 
     @FXML
     public void addButtonClicked(Event e) throws IOException {
-        if(typeChoiceBox.getValue().equals("Dog")){
-            this.shelter.addAnimal(new Dog(nameInput.getText(), genderChoiceBox.getValue()));
-        }
-        else if (typeChoiceBox.getValue().equals("Cat")){
-            this.shelter.addAnimal(new Cat(nameInput.getText(), genderChoiceBox.getValue(), badHabitsArea.getText()));
-        }
+        this.shelter.addAnimal(AnimalFactory.createAnimal(typeChoiceBox.getValue(), nameInput.getText(), genderChoiceBox.getValue(), badHabitsArea.getText()));
 
         animalListView.setItems(this.shelter.getAnimals());
 
@@ -52,13 +48,23 @@ public class MainSceneController implements Initializable {
 
     @FXML
     public void removeButtonClicked(Event e) throws IOException {
-        for (Animal animal: animalListView.getSelectionModel().getSelectedItems()) {
-            this.shelter.removeAnimal(animal);
-        }
+        this.shelter.removeAnimal(animalListView.getSelectionModel().getSelectedItem());
 
         animalListView.setItems(this.shelter.getAnimals());
 
         animalRepository.saveAnimalShelter(this.shelter);
+    }
+
+    @FXML
+    public void onAnimalListMouseClicked(Event e) throws IOException {
+        Animal selectedAnimal = animalListView.getSelectionModel().getSelectedItem();
+        if(selectedAnimal != null){
+            sellButton.setDisable(false);
+            sellButton.setText("Sell (" + selectedAnimal.getPrice() + ")");
+        }
+        else{
+            sellButton.setDisable(true);
+        }
     }
 
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -79,5 +85,7 @@ public class MainSceneController implements Initializable {
         typeChoices.add("Dog");
         typeChoices.add("Cat");
         typeChoiceBox.setItems(typeChoices);
+
+        sellButton.setDisable(true);
     }
 }

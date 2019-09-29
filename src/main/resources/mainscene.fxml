@@ -9,22 +9,22 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="448.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
   <children>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="0.0" prefWidth="417.0" VBox.vgrow="ALWAYS">
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="700.0" VBox.vgrow="ALWAYS">
          <children>
-            <ListView fx:id="animalListView" layoutX="14.0" layoutY="38.0" prefHeight="347.0" prefWidth="214.0" />
+            <ListView fx:id="animalListView" layoutX="14.0" layoutY="38.0" onMouseClicked="#onAnimalListMouseClicked" prefHeight="347.0" prefWidth="214.0" />
             <Label layoutX="14.0" layoutY="14.0" text="Currently housed animals" />
             <Label layoutX="244.0" layoutY="43.0" prefHeight="18.0" prefWidth="151.0" text="Name" />
-            <Button layoutX="245.0" layoutY="359.0" mnemonicParsing="false" onMouseClicked="#addButtonClicked" prefHeight="26.0" prefWidth="149.0" text="Add" />
+            <Button layoutX="246.0" layoutY="398.0" mnemonicParsing="false" onMouseClicked="#addButtonClicked" prefHeight="26.0" prefWidth="149.0" text="Add" />
             <TextField fx:id="nameInput" layoutX="245.0" layoutY="61.0" />
             <Label layoutX="244.0" layoutY="86.0" prefHeight="18.0" prefWidth="151.0" text="Gender" />
             <Label layoutX="244.0" layoutY="129.0" prefHeight="18.0" prefWidth="151.0" text="Type" />
             <ChoiceBox fx:id="typeChoiceBox" layoutX="245.0" layoutY="147.0" prefWidth="150.0" />
             <ChoiceBox fx:id="genderChoiceBox" layoutX="244.0" layoutY="104.0" prefWidth="150.0" />
-            <TextArea fx:id="badHabitsArea" layoutX="245.0" layoutY="200.0" prefHeight="140.0" prefWidth="151.0" />
+            <TextArea fx:id="badHabitsArea" layoutX="245.0" layoutY="200.0" prefHeight="185.0" prefWidth="151.0" />
             <Label layoutX="245.0" layoutY="183.0" text="Bad habits" />
-            <Button layoutX="14.0" layoutY="398.0" mnemonicParsing="false" onMouseClicked="#removeButtonClicked" prefHeight="26.0" prefWidth="214.0" text="Remove current selection" />
+            <Button fx:id="sellButton" layoutX="14.0" layoutY="398.0" mnemonicParsing="false" onMouseClicked="#removeButtonClicked" prefHeight="26.0" prefWidth="214.0" text="Sell" />
          </children>
     </AnchorPane>
   </children>
