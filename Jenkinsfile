@@ -17,14 +17,14 @@ pipeline {
             }
             post {
                 always {
-                    junit 'target/surefire-reports/*.xml'
+                    junit 'target/surefire-reports/testresults.xml'
                 }
             }
         }
     }
     post {
         always {
-            junit '**/testresults.xml'
+            junit 'target/surefire-reports/testresults.xml'
         }
     }
 }
