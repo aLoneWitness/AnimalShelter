@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998b136f-5eff-4781-9298-0eceedf7d7fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/AnimalFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shelter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shelter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Sellable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mainscene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mainscene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +152,8 @@
       <workItem from="1569608434587" duration="564000" />
       <workItem from="1569656122013" duration="11104000" />
       <workItem from="1569686478999" duration="5903000" />
-      <workItem from="1569752128130" duration="5252000" />
+      <workItem from="1569752128130" duration="5886000" />
+      <workItem from="1569760341578" duration="611000" />
     </task>
     <servers />
   </component>
